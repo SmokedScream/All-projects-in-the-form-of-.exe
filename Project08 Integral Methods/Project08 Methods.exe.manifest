@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Project08 Methods.exe" version="1.0.0.0" publicKeyToken="d86f4194e721a694" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Project08 Methods" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Project08 Methods.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Project08 Methods.exe" size="163312">
+      <assemblyIdentity name="Project08 Methods" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>auktqSHW/7VWEFKZBWW0nPZkXripAE9i3BSEOurhkFM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScottPlot.dll" size="586240">
+      <assemblyIdentity name="ScottPlot" version="4.1.58.0" publicKeyToken="86698DC10387C39E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Tp/qYO6JaHaQefbZj3UbzSt+zhHf6bxgnKBzWpKoPxg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScottPlot.WPF.dll" size="41472">
+      <assemblyIdentity name="ScottPlot.WPF" version="4.1.58.0" publicKeyToken="E53B06131E34A3AA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LEkM4MyRRbaa67awXfK/E1xJYC1pVHolE3bLpAWAcHk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Drawing.Common.dll" size="53360">
+      <assemblyIdentity name="System.Drawing.Common" version="6.0.0.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yhg4OiBwUYrow+lsvRcF2ig8itpN3zliF9K8t9zQMQM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Numerics.Vectors.dll" size="115856">
+      <assemblyIdentity name="System.Numerics.Vectors" version="4.1.4.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HT74aYKB589zcdFVSv71hys5+Wwm2nciEKM9oEG6EYM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.ValueTuple.dll" size="25232">
+      <assemblyIdentity name="System.ValueTuple" version="4.0.3.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6QXRAlhbIsbfBPIZr1y9v6e8Fll56XiLYt9tzBZeEPQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Project08 Methods.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-VEVTE4N\Дмитрий" issuerKeyHash="3d71610c3ea340ed11d00c1ae602feffb15d826d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5iW5yXzB3Nid3haQge/a0W9WfbIAMyj2n6as70y4xno=</DigestValue></Reference></SignedInfo><SignatureValue>C2272n+AaeK1fwYyPiEM9ypnIWRRU88XX3PsZnZJJPQUHFqHJSLFrobc+52qKcTqQZG1GH2daGcj3NMaULHZXvsmbaUuXHPCkKGdNyzX3+Y8WqZrBAGmzgvFEgsGp351vbxWiwd4CbnIadXEil/yPv90bnV1F6oWEtGghaixafQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oxMkr6euYmlDPCcVvmWseg0uqNpzC9r6KOhouiFXcZuiee1/ft8qFSjVb2/88dFHTARSMOSoxFj6MBdwZNB9wYMlQ4UO4XjoSoKSUxV9nGK7PYki5JQCm0XpcRQu4oSdJ/BtylupYFnm3IayFgbSyDDK5hb+qLdEVPmFo/qVbCU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7ac6b84cefaca69ff6283300b27d566fd1daef819016de9dd8dcc17cc9b925e6" Description="" Url=""><as:assemblyIdentity name="Project08 Methods.exe" version="1.0.0.0" publicKeyToken="d86f4194e721a694" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-VEVTE4N\Дмитрий</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>f5fStZCzN6DdqQLqLqUXvrI56anS3RU1TecAjKvyXi8=</DigestValue></Reference></SignedInfo><SignatureValue>Fdx7o3HCKnVybe4xoDYQ9MSG8fvECippvm858LiQSHPQXizpHfo9rNxNcBEejV3wqIYuxVUqhJNiyMGTl/7ZfWbx5bcmyRLpzPz0ECXoFL+S0kPeht2vyRfXk2D3J6Lb29Ci/RYq61hKilBXfxc7z5ynlhYp6vLWWmP9+ssoSEs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oxMkr6euYmlDPCcVvmWseg0uqNpzC9r6KOhouiFXcZuiee1/ft8qFSjVb2/88dFHTARSMOSoxFj6MBdwZNB9wYMlQ4UO4XjoSoKSUxV9nGK7PYki5JQCm0XpcRQu4oSdJ/BtylupYFnm3IayFgbSyDDK5hb+qLdEVPmFo/qVbCU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQOmnbFAINL4RKlP4LUKnDkjANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAFYARQBWAFQARQA0AE4AXAQUBDwEOARCBEAEOAQ5MB4XDTIyMTAwMzE1NTYwMloXDTIzMTAwMzIxNTYwMlowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBWAEUAVgBUAEUANABOAFwEFAQ8BDgEQgRABDgEOTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAoxMkr6euYmlDPCcVvmWseg0uqNpzC9r6KOhouiFXcZuiee1/ft8qFSjVb2/88dFHTARSMOSoxFj6MBdwZNB9wYMlQ4UO4XjoSoKSUxV9nGK7PYki5JQCm0XpcRQu4oSdJ/BtylupYFnm3IayFgbSyDDK5hb+qLdEVPmFo/qVbCUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQATwhQWvrCb5wQ3NPsTkPgr7CfBzq2M9e95CW5W/dUvedp4VBf5fPod3AxlrAvbxKrhoHZoxCg72XAaJogjLRPlfN99ch1wtoLefeMoXI9Z3Pieh89w9Eo5d3ErdlG4Cd9vN8XC5JWJzbLz72ljY6K07Sb1DIjcLU+qcelFHJ8K9w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
